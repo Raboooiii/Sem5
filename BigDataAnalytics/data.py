@@ -1,0 +1,25 @@
+csv_content = """id,name,age,city
+1," Alice ","29","New York"
+2,Bob,, "  Los Angeles "
+3,,25,
+4,Charlie,35,San Francisco
+5,David,not_a_number,Seattle
+6,Eve,40,"  "
+7,Faythe,22,"Chicago"
+8,Grace,31,"Houston"
+9,Heidi,27,"Miami"
+10,Ivan,, "Dallas"
+11,Judy,not_a_number,"Austin"
+12,Mallory,45,"Boston"
+13,Oscar,38,"Denver"
+14,Peggy,, "Atlanta"
+15,Trent,29,"Philadelphia"
+16,Vincent,not_a_number,"Portland"
+17,Walter,55,"Las Vegas"
+18,Xavier,33,"Phoenix"
+19,Yolanda,28,"San Diego"
+20,Zara,NaN,"Orlando"
+"""
+
+with open("people_data.csv", "w") as f:
+    f.write(csv_content)
